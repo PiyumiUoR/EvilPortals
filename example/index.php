@@ -38,8 +38,8 @@ require_once('helper.php');
         <div>
             <h1>Warning! You have been hacked!!!</h1>
             <h3>You have connected to a potentially malicious network.</h3>
-            <p>This is an Evil Portal that is being configured to run penetration testing in university network.</>
-            <p>The task is conducted as a deliverable of a project under the course "Cyber Security Project 2024". The purpose of this project is to educate users on proper use of public networks. </p>
+            <p>This portal is part of a project of the "Cyber Security Project 2024" course, aimed at enhancing network security awareness in a university environment.</p>
+            <p>The goal is to educate users about the safe and responsible use of public networks.</p>
             <p>The SSID you are connected to is <?=getClientSSID($_SERVER['REMOTE_ADDR']);?></p>
             <p>Your host name is <?=getClientHostName($_SERVER['REMOTE_ADDR']);?></p>
             <p>Your MAC Address is <?=getClientMac($_SERVER['REMOTE_ADDR']);?></p>
