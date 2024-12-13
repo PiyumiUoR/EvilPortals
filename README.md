@@ -4,4 +4,4 @@ This is an edited example portal for Evil Portal run in Pineapple router. This i
 
 ## Preview of the UI
 
-
+![Preview](example/portal_preview.png)
